@@ -1,7 +1,4 @@
-﻿using System;
-class HelloWorld {
-  static void Main() {
-    int count = 0;
+﻿    int count = 0;
     int distance = 10000;
     int firstSpeed = 1;
     int secondSpeed = 2;
@@ -20,6 +17,3 @@ class HelloWorld {
     }
     Console.Write("count = ");
     Console.WriteLine(count);
-
-  }
-}
