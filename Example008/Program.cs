@@ -1,19 +1,12 @@
-﻿    int count = 0;
-    int distance = 10000;
-    int firstSpeed = 1;
-    int secondSpeed = 2;
-    int dogSpeed = 5;
-    int time = 0;
-    while (distance > 10)
-    {
-        if(count % 2 == 0) {
-            time = distance / (secondSpeed + dogSpeed);
-        } else {
-            time = distance / (firstSpeed + dogSpeed);
-        }
-        
-        distance = distance - (firstSpeed + secondSpeed) * time;
-        count++;
-    }
-    Console.Write("count = ");
-    Console.WriteLine(count);
+﻿Console.WriteLine("Введите натуральное число ");
+int x1=Convert.ToInt32 ( Console.ReadLine());
+Console.WriteLine("Введите второе натуральное число ");
+int x2=Convert.ToInt32 ( Console.ReadLine());
+Console.WriteLine("Вот результат ");
+if (x1==x2*x2)
+{
+    Console.WriteLine("Это квадрат второго");
+}
+// else Console.WriteLine("Это не квадрат второго");
+// int x1=Convert.ToInt32 ( Console.ReadLine());
+// int y =Convert.ToInt32 ( Console.ReadLine());
